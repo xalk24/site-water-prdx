@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" fill="none">
+  <defs>
+    <linearGradient id="glass" x1="120" y1="80" x2="760" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F9FA" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#DDF6FA" stop-opacity=".68"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="180" y1="620" x2="820" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16BBD0"/>
+      <stop offset="1" stop-color="#087C8D"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="960" height="760" rx="48" fill="#14253A"/>
+  <circle cx="716" cy="164" r="116" fill="#16BBD0" fill-opacity=".12"/>
+  <circle cx="716" cy="164" r="64" stroke="#16BBD0" stroke-opacity=".34"/>
+  <path d="M82 612C220 612 240 502 360 502S514 590 634 454 774 286 878 286" stroke="url(#signal)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M82 636C224 636 262 548 370 548S526 632 664 486 790 330 894 330" stroke="#DDF6FA" stroke-opacity=".14" stroke-width="1.5" stroke-dasharray="8 12"/>
+  <g transform="translate(116 120)">
+    <path d="M130 0h116l16 58v40c0 28 14 54 38 70 30 20 48 54 48 90v272c0 54-44 98-98 98H126c-54 0-98-44-98-98V258c0-36 18-70 48-90 24-16 38-42 38-70V58L130 0Z" fill="url(#glass)" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M114 58h148M110 98h156" stroke="#14253A" stroke-opacity=".24" stroke-width="2"/>
+    <rect x="68" y="250" width="240" height="160" rx="14" fill="#fff" fill-opacity=".82"/>
+    <g transform="translate(174 284)" fill="#14253A">
+      <path d="M0 0h32v32H0zM48 0h32v32H48zM0 48h32v32H0z"/>
+      <path d="M48 48h12v12H48zM68 48h12v32H68zM48 68h12v12H48z" fill="#16BBD0"/>
+    </g>
+    <path d="M88 438h200" stroke="#16BBD0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#F47A1F">
+    <circle cx="82" cy="612" r="9"/>
+    <circle cx="634" cy="454" r="9"/>
+    <circle cx="878" cy="286" r="9"/>
+  </g>
+  <g stroke="#DDF6FA" stroke-opacity=".34">
+    <path d="M682 164h68M716 130v68"/>
+    <path d="M768 544h92M814 498v92"/>
+  </g>
+  <ellipse cx="340" cy="684" rx="240" ry="30" fill="#16BBD0" fill-opacity=".16" filter="url(#soft)"/>
+</svg>
