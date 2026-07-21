@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientTransform="translate(400 400) rotate(90) scale(370)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16BBD0" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#16BBD0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="400" r="370" fill="url(#wash)"/>
+  <g stroke="#16BBD0">
+    <circle cx="400" cy="400" r="70" stroke-width="3"/>
+    <circle cx="400" cy="400" r="142" stroke-opacity=".62" stroke-width="2"/>
+    <circle cx="400" cy="400" r="222" stroke-opacity=".36" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="316" stroke-opacity=".18"/>
+  </g>
+  <path d="M400 400C486 330 568 292 694 282" stroke="#F47A1F" stroke-width="4" stroke-linecap="round"/>
+  <path d="m672 262 31 19-26 26" stroke="#F47A1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="400" r="13" fill="#14253A" stroke="#16BBD0" stroke-width="4"/>
+  <g fill="#14253A">
+    <circle cx="296" cy="330" r="7"/>
+    <circle cx="520" cy="488" r="7"/>
+    <circle cx="242" cy="532" r="7"/>
+  </g>
+</svg>
