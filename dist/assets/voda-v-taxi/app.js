@@ -1,5 +1,4 @@
 (() => {
-  document.documentElement.classList.add('js');
   document.getElementById('year').textContent = new Date().getFullYear();
   const menuButton = document.querySelector('.menu-toggle');
   const mobileNav = document.getElementById('mobile-nav');
