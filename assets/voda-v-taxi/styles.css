@@ -6,3 +6,4 @@
 @media(max-width:900px){.menu-toggle{display:grid;place-items:center}.header-cta{margin-left:auto}.contact-action{padding:28px}}
 @media(max-width:520px){.header-cta{display:none}.project-name{font-size:14px}.contact-action{padding:22px}}
 @media(prefers-reduced-motion:reduce){.menu-toggle>span[aria-hidden],.menu-toggle>span[aria-hidden]:before,.menu-toggle>span[aria-hidden]:after{transition:none}}
+@media(max-width:520px){.hero-grid>*{min-width:0}.hero h1{font-size:clamp(2.4rem,12vw,4.8rem)}}
