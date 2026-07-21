@@ -1,4 +1,5 @@
 (() => {
+  document.documentElement.classList.add('js');
   document.getElementById('year').textContent = new Date().getFullYear();
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const targets = document.querySelectorAll('.reveal, .route');
